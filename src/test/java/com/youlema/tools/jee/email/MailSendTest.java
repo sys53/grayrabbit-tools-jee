@@ -4,12 +4,12 @@
  */
 package com.youlema.tools.jee.email;
 
+import org.junit.Test;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
-
-import org.junit.Test;
 
 /**
  * 

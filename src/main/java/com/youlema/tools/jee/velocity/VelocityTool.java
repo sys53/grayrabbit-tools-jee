@@ -4,13 +4,7 @@
  */
 package com.youlema.tools.jee.velocity;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.StringWriter;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Properties;
-
+import com.youlema.tools.jee.exceptions.JEEToolsException;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
@@ -20,7 +14,12 @@ import org.apache.velocity.exception.ResourceNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.youlema.tools.jee.exceptions.JEEToolsException;
+import java.io.File;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Properties;
 
 /**
  * veolicty生成html引擎

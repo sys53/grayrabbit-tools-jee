@@ -4,13 +4,12 @@
  */
 package com.youlema.tools.jee.email.utils;
 
+import com.youlema.tools.jee.email.MailConfig;
+import org.apache.commons.lang.StringUtils;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
-
-import org.apache.commons.lang.StringUtils;
-
-import com.youlema.tools.jee.email.MailConfig;
 
 /**
  * 邮件工具类
